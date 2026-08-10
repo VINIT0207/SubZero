@@ -1,0 +1,40 @@
+# Android Studio / IntelliJ
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Secrets
+.env
+
+# Build outputs
+*.apk
+*.aar
+
+# Diagnostic & Temporary files
+diag.py
+diag_oat.ps1
+oat_exec.txt
+build_log.txt
+diag_exec.txt
+oat_state.txt
+analyze_dex.py
+build_log*.txt
+dex_errors.txt
+dex_report.txt
+launch_out.txt
+adb_devices.txt
+full_logcat.txt
+install_diag.txt
+find_mainactivity.py
+run_install_diag.ps1
+install_dex_errors.txt
+install_logcat_all.txt
+
+# Redundant / Backup folders
+/app/SubZero-all files/
