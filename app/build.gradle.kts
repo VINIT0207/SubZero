@@ -29,6 +29,20 @@ android {
         multiDexKeepProguard = file("multidex-config.pro")
     }
 
+    signingConfigs {
+        create("release") {
+            // This configuration will use the debug key if a release key is not provided.
+            // This ensures assembleRelease produces a signed, installable APK.
+            val keystoreFile = file("${System.getProperty("user.home")}/.android/debug.keystore")
+            if (keystoreFile.exists()) {
+                storeFile = keystoreFile
+                storePassword = "android"
+                keyAlias = "androiddebugkey"
+                keyPassword = "android"
+            }
+        }
+    }
+
     buildTypes {
         debug {
             multiDexKeepFile = file("multidex-keep.txt")
@@ -42,6 +56,7 @@ android {
             )
             multiDexKeepFile = file("multidex-keep.txt")
             multiDexKeepProguard = file("multidex-config.pro")
+            signingConfig = signingConfigs.getByName("release")
         }
     }
     compileOptions {
