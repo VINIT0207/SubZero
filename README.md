@@ -30,11 +30,11 @@ SubZero is a high-performance, offline-first subscription tracking engine built 
 
 | Onboarding | Dashboard | AI Advisor |
 | :---: | :---: | :---: |
-| <img src="screenshots/screenshot1.png" width="220"> | <img src="screenshots/screenshot2.png" width="220"> | <img src="screenshots/screenshot3.png" width="220"> |
+| <img src="screenshots/Photo1.jpeg" width="220"> | <img src="screenshots/Photo2.jpeg" width="220"> | <img src="screenshots/Photo3.jpeg" width="220"> |
 
 | Alerts & Nudges | Vault Management |
 | :---: | :---: |
-| <img src="screenshots/screenshot4.png" width="220"> | <img src="screenshots/screenshot5.png" width="220"> |
+| <img src="screenshots/Photo4.jpeg" width="220"> | <img src="screenshots/Photo5.jpeg" width="220"> |
 
 ---
 
