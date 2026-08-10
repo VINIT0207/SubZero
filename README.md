@@ -27,15 +27,21 @@
 ## App Preview
 
 SubZero is a high-performance, offline-first subscription tracking engine built with **Modern Android Development (MAD)** standards. It is designed for users who demand absolute privacy and financial clarity, featuring hardware-backed security and an integrated AI Financial Advisor.
+<div align="center">
 
 | Onboarding | Dashboard | AI Advisor |
 | :---: | :---: | :---: |
 | <img src="screenshots/Photo1.jpeg" width="220"> | <img src="screenshots/photo2.jpeg" width="220"> | <img src="screenshots/photo3.jpeg" width="220"> |
 
+</div>
+
+<div align="center">
+
 | Alerts & Nudges | Vault Management |
 | :---: | :---: |
 | <img src="screenshots/photo4.jpeg" width="220"> | <img src="screenshots/photo5.jpeg" width="220"> |
 
+</div>
 ---
 
 ## Why This App Stands Out
